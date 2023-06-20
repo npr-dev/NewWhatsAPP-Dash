@@ -27,12 +27,12 @@
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>Tables - Basic Tables | Sneat - Bootstrap 5 HTML Admin Template - Pro</title>
+    <title>Collapse - UI elements | Sneat - Bootstrap 5 HTML Admin Template - Pro</title>
 
     <meta name="description" content="" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="../assets/img/favicon/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="../assets/photo/logo.png" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -71,8 +71,8 @@
 
         <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
           <div class="app-brand demo">
-            <a href="index.html" class="app-brand-link">
-              <span class="app-brand-logo demo">
+            <a href="https://mozaicweb.com/" class="app-brand-link">
+              <!-- <span class="app-brand-logo demo">
                 <svg
                   width="25"
                   viewBox="0 0 25 42"
@@ -126,8 +126,11 @@
                     </g>
                   </g>
                 </svg>
+              </span> -->
+              <span class="app-brand-text demo menu-text fw-bolder ms-2">
+                <img src="../assets/photo/logo.png" alt="" width="130" height="60">
+
               </span>
-              <span class="app-brand-text demo menu-text fw-bolder ms-2">Sneat</span>
             </a>
 
             <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
@@ -259,7 +262,7 @@
               </a>
             </li>
             <!-- User interface -->
-            <li class="menu-item">
+            <li class="menu-item active open">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-box"></i>
                 <div data-i18n="User interface">User interface</div>
@@ -290,7 +293,7 @@
                     <div data-i18n="Carousel">Carousel</div>
                   </a>
                 </li>
-                <li class="menu-item">
+                <li class="menu-item active">
                   <a href="ui-collapse.html" class="menu-link">
                     <div data-i18n="Collapse">Collapse</div>
                   </a>
@@ -393,13 +396,13 @@
             <!-- Forms & Tables -->
             <li class="menu-header small text-uppercase"><span class="menu-header-text">Forms &amp; Tables</span></li>
             <!-- Forms -->
-            <li class="menu-item active open">
+            <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-detail"></i>
                 <div data-i18n="Form Elements">Form Elements</div>
               </a>
               <ul class="menu-sub">
-                <li class="menu-item active">
+                <li class="menu-item">
                   <a href="forms-basic-inputs.html" class="menu-link">
                     <div data-i18n="Basic Inputs">Basic Inputs</div>
                   </a>
@@ -430,7 +433,7 @@
               </ul>
             </li>
             <!-- Tables -->
-            <li class="menu-item active">
+            <li class="menu-item">
               <a href="tables-basic.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-table"></i>
                 <div data-i18n="Tables">Tables</div>
@@ -543,24 +546,8 @@
                         <span class="align-middle">Settings</span>
                       </a>
                     </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        <span class="d-flex align-items-center align-middle">
-                          <i class="flex-shrink-0 bx bx-credit-card me-2"></i>
-                          <span class="flex-grow-1 align-middle">Billing</span>
-                          <span class="flex-shrink-0 badge badge-center rounded-pill bg-danger w-px-20 h-px-20">4</span>
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <div class="dropdown-divider"></div>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="auth-login-basic.html">
-                        <i class="bx bx-power-off me-2"></i>
-                        <span class="align-middle">Log Out</span>
-                      </a>
-                    </li>
+                    
+                   
                   </ul>
                 </li>
                 <!--/ User -->
@@ -575,308 +562,178 @@
             <!-- Content -->
 
             <div class="container-xxl flex-grow-1 container-p-y">
-  <h4></h4>
-  <div class="row">
-    <div class="col-12">
-      <div class="card mb-4">
-        <h5 class="card-header">Add User</h5>
-        <div class="card-body">
-          <p class="card-text">
-            Click button Add user to Enter the users .
-          </p>
-          <p class="demo-inline-spacing">
-            <a
-              class="btn btn-primary me-1"
-              data-bs-toggle="collapse"
-              href="#collapseExample"
-              role="button"
-              aria-expanded="false"
-              aria-controls="collapseExample"
-            >
-              Add
-            </a>
-            
-          </p>
-          <div class="collapse" id="collapseExample">
-            <div class="col-xl-6">
-              <!-- HTML5 Inputs -->
-              <div class="card mb-4">
-                <h5 class="card-header">Enter You Data:</h5>
-                <div class="card-body">
-                  <div class="mb-3 row">
-                    <label for="html5-text-input" class="col-md-2 col-form-label">Name</label>
-                    <div class="col-md-10">
-                      <input class="form-control" type="text" value="Enter Your Name" id="html5-text-input" />
-                    </div>
-                  </div>
-                
-                  <div class="mb-3 row">
-                    <label for="html5-email-input" class="col-md-2 col-form-label">Email</label>
-                    <div class="col-md-10">
-                      <input class="form-control" type="email" value="john@example.com" id="html5-email-input" />
-                    </div>
-                  </div>
-                  <div class="mb-3 row">
-                    <label for="html5-tel-input" class="col-md-2 col-form-label">Phone</label>
-                    <div class="col-md-10">
-                      <input class="form-control" type="tel" value="+968 9999 9999" id="html5-tel-input" />
-                    </div>
-                  </div>
-                  <div class="card-body">
-                    <div class="row gy-3">
-                      <div class="col-md">
-                        <label class="fw-semibold d-block">Group</label>
-                        <div class="form-check form-check-inline mt-3">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" />
-                          <label class="form-check-label" for="inlineCheckbox1">Tag 1</label>
+              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">UI elements /</span> Collapse</h4>
+
+              <!-- Collapse -->
+              <h5>Collapse</h5>
+              <div class="row">
+                <div class="col-12">
+                  <div class="card mb-4">
+                    <h5 class="card-header">Add User</h5>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Click button Add user to Enter the users .
+                      </p>
+                      <p class="demo-inline-spacing">
+                        <a
+                          class="btn btn-primary me-1"
+                          data-bs-toggle="collapse"
+                          href="#collapseExample"
+                          role="button"
+                          aria-expanded="false"
+                          aria-controls="collapseExample"
+                        >
+                          Add
+                        </a>
+                        
+                      </p>
+                      <div class="collapse" id="collapseExample">
+                        <div class="col-xl-6">
+                          <!-- HTML5 Inputs -->
+                          <div class="card mb-4">
+                            <h5 class="card-header">Enter You Data:</h5>
+                            <div class="card-body">
+                              <div class="mb-3 row">
+                                <label for="html5-text-input" class="col-md-2 col-form-label">Name</label>
+                                <div class="col-md-10">
+                                  <input class="form-control" type="text" value="Enter Your Name" id="html5-text-input" />
+                                </div>
+                              </div>
+                            
+                              <div class="mb-3 row">
+                                <label for="html5-email-input" class="col-md-2 col-form-label">Email</label>
+                                <div class="col-md-10">
+                                  <input class="form-control" type="email" value="john@example.com" id="html5-email-input" />
+                                </div>
+                              </div>
+                              <div class="mb-3 row">
+                                <label for="html5-tel-input" class="col-md-2 col-form-label">Phone</label>
+                                <div class="col-md-10">
+                                  <input class="form-control" type="tel" value="+968 9999 9999" id="html5-tel-input" />
+                                </div>
+                              </div>
+                              <div class="card-body">
+                                <div class="row gy-3">
+                                  <div class="col-md">
+                                    <label class="fw-semibold d-block">Group</label>
+                                    <div class="form-check form-check-inline mt-3">
+                                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" />
+                                      <label class="form-check-label" for="inlineCheckbox1">Tag 1</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" />
+                                      <label class="form-check-label" for="inlineCheckbox2">Tag 2</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" />
+                                      <label class="form-check-label" for="inlineCheckbox2">Tag 3</label>
+                                    </div>
+                                   </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                        <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" />
-                          <label class="form-check-label" for="inlineCheckbox2">Tag 2</label>
+                      
+                        <hr class="my-5" />
+
+                        <!-- Striped Rows -->
+                        <div class="card">
+                          <h5 class="card-header">List of User</h5>
+                          <div class="table-responsive text-nowrap">
+                            <table class="table table-striped">
+                              <thead>
+                                <tr>
+                                  <th>Users Name</th>
+                                  <th>Actions</th>
+                                </tr>
+                              </thead>
+                              <tbody class="table-border-bottom-0">
+                                <tr>
+                                  <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>u1</strong></td>
+                                  
+                                  <td>
+                                    <div class="dropdown">
+                                      <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <i class="bx bx-dots-vertical-rounded"></i>
+                                      </button>
+                                      <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="javascript:void(0);"
+                                          ><i class="bx bx-edit-alt me-1"></i> Edit</a
+                                        >
+                                        <a class="dropdown-item" href="javascript:void(0);"
+                                          ><i class="bx bx-trash me-1"></i> Delete</a
+                                        >
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><i class="fab fa-react fa-lg text-info me-3"></i> <strong>u2</strong></td>
+                                
+                                  <td>
+                                    <div class="dropdown">
+                                      <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <i class="bx bx-dots-vertical-rounded"></i>
+                                      </button>
+                                      <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="javascript:void(0);"
+                                          ><i class="bx bx-edit-alt me-1"></i> Edit</a
+                                        >
+                                        <a class="dropdown-item" href="javascript:void(0);"
+                                          ><i class="bx bx-trash me-1"></i> Delete</a
+                                        >
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><i class="fab fa-vuejs fa-lg text-success me-3"></i> <strong>u3</strong></td>
+                                
+                                  <td>
+                                    <div class="dropdown">
+                                      <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <i class="bx bx-dots-vertical-rounded"></i>
+                                      </button>
+                                      <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="javascript:void(0);"
+                                          ><i class="bx bx-edit-alt me-1"></i> Edit</a
+                                        >
+                                        <a class="dropdown-item" href="javascript:void(0);"
+                                          ><i class="bx bx-trash me-1"></i> Delete</a
+                                        >
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>u4</strong>
+                                  </td>
+                                  
+                                  <td>
+                                    <div class="dropdown">
+                                      <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <i class="bx bx-dots-vertical-rounded"></i>
+                                      </button>
+                                      <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="javascript:void(0);"
+                                          ><i class="bx bx-edit-alt me-1"></i> Edit</a
+                                        >
+                                        <a class="dropdown-item" href="javascript:void(0);"
+                                          ><i class="bx bx-trash me-1"></i> Delete</a
+                                        >
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
                         </div>
-                        <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" />
-                          <label class="form-check-label" for="inlineCheckbox2">Tag 3</label>
-                        </div>
-                       </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
-              </div>
-            </div>
-
-              <!-- Small table -->
-
-              <div class="card">
-                <h5 class="card-header">Small Table</h5>
-                <div class="table-responsive text-nowrap">
-                  <table class="table table-sm">
-                    <thead>
-                      <tr>
-                        <th>Name</th>
-                        <th>Phone</th>
-                        <th>Application Name</th>
-                    </thead>
-                    <tbody class="table-border-bottom-0">
-                      <tr>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Angular Project</strong></td>
-                        <td>Albert Cook</td>
-                        <td>
-                          <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                            <li
-                              data-bs-toggle="tooltip"
-                              data-popup="tooltip-custom"
-                              data-bs-placement="top"
-                              class="avatar avatar-xs pull-up"
-                              title="Lilian Fuller"
-                            >
-                              <img src="../assets/img/avatars/5.png" alt="Avatar" class="rounded-circle" />
-                            </li>
-                            <li
-                              data-bs-toggle="tooltip"
-                              data-popup="tooltip-custom"
-                              data-bs-placement="top"
-                              class="avatar avatar-xs pull-up"
-                              title="Sophia Wilkerson"
-                            >
-                              <img src="../assets/img/avatars/6.png" alt="Avatar" class="rounded-circle" />
-                            </li>
-                            <li
-                              data-bs-toggle="tooltip"
-                              data-popup="tooltip-custom"
-                              data-bs-placement="top"
-                              class="avatar avatar-xs pull-up"
-                              title="Christina Parker"
-                            >
-                              <img src="../assets/img/avatars/7.png" alt="Avatar" class="rounded-circle" />
-                            </li>
-                          </ul>
-                        </td>
-                        <td><span class="badge bg-label-primary me-1">Active</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-1"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i> Delete</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td><i class="fab fa-react fa-lg text-info me-3"></i> <strong>React Project</strong></td>
-                        <td>Barry Hunter</td>
-                        <td>
-                          <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                            <li
-                              data-bs-toggle="tooltip"
-                              data-popup="tooltip-custom"
-                              data-bs-placement="top"
-                              class="avatar avatar-xs pull-up"
-                              title="Lilian Fuller"
-                            >
-                              <img src="../assets/img/avatars/5.png" alt="Avatar" class="rounded-circle" />
-                            </li>
-                            <li
-                              data-bs-toggle="tooltip"
-                              data-popup="tooltip-custom"
-                              data-bs-placement="top"
-                              class="avatar avatar-xs pull-up"
-                              title="Sophia Wilkerson"
-                            >
-                              <img src="../assets/img/avatars/6.png" alt="Avatar" class="rounded-circle" />
-                            </li>
-                            <li
-                              data-bs-toggle="tooltip"
-                              data-popup="tooltip-custom"
-                              data-bs-placement="top"
-                              class="avatar avatar-xs pull-up"
-                              title="Christina Parker"
-                            >
-                              <img src="../assets/img/avatars/7.png" alt="Avatar" class="rounded-circle" />
-                            </li>
-                          </ul>
-                        </td>
-                        <td><span class="badge bg-label-success me-1">Completed</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-1"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i> Delete</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td><i class="fab fa-vuejs fa-lg text-success me-3"></i> <strong>VueJs Project</strong></td>
-                        <td>Trevor Baker</td>
-                        <td>
-                          <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                            <li
-                              data-bs-toggle="tooltip"
-                              data-popup="tooltip-custom"
-                              data-bs-placement="top"
-                              class="avatar avatar-xs pull-up"
-                              title="Lilian Fuller"
-                            >
-                              <img src="../assets/img/avatars/5.png" alt="Avatar" class="rounded-circle" />
-                            </li>
-                            <li
-                              data-bs-toggle="tooltip"
-                              data-popup="tooltip-custom"
-                              data-bs-placement="top"
-                              class="avatar avatar-xs pull-up"
-                              title="Sophia Wilkerson"
-                            >
-                              <img src="../assets/img/avatars/6.png" alt="Avatar" class="rounded-circle" />
-                            </li>
-                            <li
-                              data-bs-toggle="tooltip"
-                              data-popup="tooltip-custom"
-                              data-bs-placement="top"
-                              class="avatar avatar-xs pull-up"
-                              title="Christina Parker"
-                            >
-                              <img src="../assets/img/avatars/7.png" alt="Avatar" class="rounded-circle" />
-                            </li>
-                          </ul>
-                        </td>
-                        <td><span class="badge bg-label-info me-1">Scheduled</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-1"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i> Delete</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap Project</strong>
-                        </td>
-                        <td>Jerry Milton</td>
-                        <td>
-                          <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                            <li
-                              data-bs-toggle="tooltip"
-                              data-popup="tooltip-custom"
-                              data-bs-placement="top"
-                              class="avatar avatar-xs pull-up"
-                              title="Lilian Fuller"
-                            >
-                              <img src="../assets/img/avatars/5.png" alt="Avatar" class="rounded-circle" />
-                            </li>
-                            <li
-                              data-bs-toggle="tooltip"
-                              data-popup="tooltip-custom"
-                              data-bs-placement="top"
-                              class="avatar avatar-xs pull-up"
-                              title="Sophia Wilkerson"
-                            >
-                              <img src="../assets/img/avatars/6.png" alt="Avatar" class="rounded-circle" />
-                            </li>
-                            <li
-                              data-bs-toggle="tooltip"
-                              data-popup="tooltip-custom"
-                              data-bs-placement="top"
-                              class="avatar avatar-xs pull-up"
-                              title="Christina Parker"
-                            >
-                              <img src="../assets/img/avatars/7.png" alt="Avatar" class="rounded-circle" />
-                            </li>
-                          </ul>
-                        </td>
-                        <td><span class="badge bg-label-warning me-1">Pending</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-1"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i> Delete</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
                 </div>
-              </div>
-              <!--/ Small table -->
-
-              <hr class="my-5" />
-
-
-             
-              <!--/ Responsive Table -->
-            </div>
             <!-- / Content -->
 
             <!-- Footer -->
@@ -887,7 +744,7 @@
                   <script>
                     document.write(new Date().getFullYear());
                   </script>
-                
+                  , made with ❤️ by
                   <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">ThemeSelection</a>
                 </div>
                 <div>
